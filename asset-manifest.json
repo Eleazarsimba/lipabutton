@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/lipabutton/static/css/main.85df58bc.css",
+    "main.js": "/lipabutton/static/js/main.df2377dd.js",
+    "static/js/787.45d003d5.chunk.js": "/lipabutton/static/js/787.45d003d5.chunk.js",
+    "static/media/notification.svg?s3g3t9": "/lipabutton/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/lipabutton/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/lipabutton/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/lipabutton/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/lipabutton/index.html",
+    "main.85df58bc.css.map": "/lipabutton/static/css/main.85df58bc.css.map",
+    "main.df2377dd.js.map": "/lipabutton/static/js/main.df2377dd.js.map",
+    "787.45d003d5.chunk.js.map": "/lipabutton/static/js/787.45d003d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85df58bc.css",
+    "static/js/main.df2377dd.js"
+  ]
+}
