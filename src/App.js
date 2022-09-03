@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Home from './components/Home';
+// import Home from './components/Home';
 import Pay from './components/Pay';
 
 // React Notification
@@ -12,8 +12,8 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Home />}/>
-        <Route exact path="/pay" element={<Pay />}/>
+        {/* <Route exact path="/" element={<Home />}/> */}
+        <Route exact path="/" element={<Pay />}/>
       </Routes>
       </BrowserRouter>
       <NotificationContainer />
