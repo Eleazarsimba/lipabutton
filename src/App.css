@@ -1,0 +1,68 @@
+.MainApp {
+    background-color: #0298025c;
+    width: 120px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 20px;
+    cursor: pointer;
+}
+.MainApp:hover{
+    /* background-color: #b3f8b3; */
+    color: #0298025c;
+    background-color: #fff;
+    border: 1px solid #0298025c;
+}
+.Pay{
+    padding: 20px;
+}
+p:after {
+    content: ' \002A';
+    color: #ff0000;
+}
+.input_number{
+    height: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #fff;
+}
+.input_amount{
+    height: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #fff;
+}
+.no-outline:focus {
+    outline: none;
+}
+.paybtn{
+    margin-top: 10px;
+    background-color: #589c58;
+    padding: 6px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.paybtn:hover{
+    padding: 8px;
+    color: #0298025c;
+    background-color: #fff;
+    border: 1px solid #0298025c;
+    font-weight: 900;
+}
+.paybtn:hover:after {
+    opacity: 1;
+    right: 0;
+}
+.paybtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+}
