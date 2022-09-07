@@ -8,7 +8,7 @@ const Pay = () => {
 
   const stkPush = (e) =>{
     e.preventDefault()
-    axios.post('https://murmuring-peak-75937.herokuapp.com/token',{
+    axios.post('https://8ad7-105-161-10-19.in.ngrok.io/token',{
         //set new values
         amount: Amount_1,
         phone: P_Number      
