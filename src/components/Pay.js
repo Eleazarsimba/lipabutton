@@ -8,7 +8,7 @@ const Pay = () => {
 
   const stkPush = (e) =>{
     e.preventDefault()
-    axios.post('https://8ad7-105-161-10-19.in.ngrok.io/token',{
+    axios.post('https://e598-102-166-231-45.eu.ngrok.io/token',{
         //set new values
         amount: Amount_1,
         phone: P_Number      
